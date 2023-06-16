@@ -164,6 +164,35 @@ header{
     color: #fff;
     text-decoration: underline;
   }
+  .input-label {
+    color: #000; /* Set the label color */
+  }
+  
+  .input-field {
+    /* Your existing styles for input fields */
+    /* ... */
+  
+    /* Additional styles for dropdown */
+    
+    
+
+   
+    padding-right: 25px; /* Adjust the padding as needed */
+ /* Replace with your dropdown icon */
+    background-repeat: no-repeat;
+    background-position: right center;
+    
+  }
+  
+  /* Style the dropdown options */
+  .input-field option[value="admin"] {
+    color: #000; /* Set the color for "Admin" option */
+  }
+  
+  .input-field option[value="user"] {
+    color: #000; /* Set the color for "User" option */
+  }
+  
   
   
   /* .bx {

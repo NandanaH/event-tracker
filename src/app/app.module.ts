@@ -9,6 +9,9 @@ import { SignUpComponent } from './signup/signup.component';
 import { NavComponent } from './nav/nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSelectModule} from '@angular/material/select';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -16,7 +19,10 @@ import {MatSelectModule} from '@angular/material/select';
     AppComponent,
     LoginComponent,
     SignUpComponent,
-    NavComponent
+    NavComponent,
+    AboutComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
