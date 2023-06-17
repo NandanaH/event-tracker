@@ -12,6 +12,7 @@ import {MatSelectModule} from '@angular/material/select';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { UserdashboardComponent } from './userdashboard/userdashboard.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     NavComponent,
     AboutComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    UserdashboardComponent
   ],
   imports: [
     BrowserModule,
