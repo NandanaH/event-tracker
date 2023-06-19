@@ -98,15 +98,18 @@ cursor: pointer;
 height: 7px;
 width: 7px;
 position: absolute;
-background-color: #fa7bb4;
+background-color:#68300a;
 border-radius: 50%;
 left: 19px;
 top: 8px;
 }
+.bi-person{
+    color: beige;
+}
 .dp {
 height: 40px;
 width: 40px;
-background-color: #626262;
+background-color: #68300a;
 border-radius: 50%;
 display: flex;
 align-items: center;
@@ -135,14 +138,15 @@ padding: 40px 30px 30px 30px;
 
 .main::-webkit-scrollbar-thumb {
 background-image:
-		linear-gradient(to bottom, rgb(0, 0, 85), rgb(0, 0, 50));
+		linear-gradient(to bottom,  rgb(50, 27, 0), rgb(50, 27, 0));
 }
 .main::-webkit-scrollbar {
 width: 5px;
 }
 .main::-webkit-scrollbar-track {
-background-color: #9e9e9eb2;
+background-color:#dbc6b8;
 }
+
 
 .box-container {
 display: flex;
@@ -150,12 +154,14 @@ justify-content: space-evenly;
 align-items: center;
 flex-wrap: wrap;
 gap: 50px;
-
+background-image: url('https://cdn.dribbble.com/users/418188/screenshots/15980950/media/b2ce130e7616c08ca10d250c5c6d75c1.mp4');
+background-repeat: no-repeat;
+background-size: cover; 
 }
 .nav {
 min-height: 91vh;
 width: 250px;
-background-color:#ededed;
+background-color:#c5b19d9a;
 position: absolute;
 top: 0px;
 left: 00;
@@ -197,22 +203,27 @@ cursor: pointer;
 .nav-img {
 height: 30px;
 }
+.main{
+    background-color:#ece3dd;
+
+}
 
 .nav-upper-options {
 display: flex;
 flex-direction: column;
 align-items: center;
 gap: 30px;
+color:black;
 }
 
 .option1 {
-border-left: 5px solid #010058af;
+border-left: 5px solid #492801b6;
 background-color: var(--Border-color);
 color:black;
 cursor: pointer;
 }
 .option1:hover {
-border-left: 5px solid #83838baf;
+border-left: 5px solid #b3a698af;
 background-color:#dadada;
 }
 .box {
@@ -229,6 +240,10 @@ transition: transform 0.3s ease-in-out;
 }
 .box:hover {
 transform: scale(1.08);
+}
+.logout-link {
+    color: black;
+    text-decoration: none;
 }
 
 .box:nth-child(1) {
@@ -284,7 +299,7 @@ letter-spacing: 3px;
 min-height: 300px;
 max-width: 1200px;
 margin: 70px auto 0px auto;
-background-color: #ffffff;
+background-color: #c5b19d9a;
 border-radius: 30px;
 box-shadow: 3px 3px 10px rgb(188, 188, 188);
 padding: 0px 20px 20px 20px;
@@ -337,6 +352,8 @@ letter-spacing: 0px;
 .items {
 width: 1120px;
 margin-top: 15px;
+margin-left: 15px;
+
 }
 
 .item1 {
@@ -345,7 +362,7 @@ margin-top: 20px;
 .t-op-nextlvl {
 font-size: 14px;
 letter-spacing: 0px;
-font-weight: 600;
+font-weight: 60;
 }
 
 .label-tag {

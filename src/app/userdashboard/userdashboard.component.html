@@ -56,11 +56,11 @@
                             <i class="bi bi-border-all"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-border-all" viewBox="0 0 16 16">
                                 <path d="M0 0h16v16H0V0zm1 1v6.5h6.5V1H1zm7.5 0v6.5H15V1H8.5zM15 8.5H8.5V15H15V8.5zM7.5 15V8.5H1V15h6.5z"/>
                               </svg></i>
-                            <h3>
-                                Dashboard</h3>
+                            <h3><b>Dashboard</b>
+                                </h3>
                         </div>
 
-                        <div class="option2 nav-option">
+                        <!-- <div class="option2 nav-option">
                             <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183322/9.png" class="nav-img" alt="articles">
                             <h3>
                                 Articles</h3>
@@ -88,14 +88,14 @@
                             <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183320/4.png" class="nav-img" alt="settings">
                             <h3>
                                 Settings</h3>
-                        </div>
+                        </div> -->
 
                         <div class="nav-option logout">
                             <i class="bi bi-box-arrow-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
                                 <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
                               </svg></i>
-                            <h3>Logout</h3>
+                            <h3><b><a  class="logout-link"routerLink="/login" >Logout</a></b></h3>
                         </div>
 
                     </div>
@@ -113,7 +113,6 @@
                 </div>
 
                 <div class="box-container">
-
                     <div class="box box1">
                         <div class="text">
                             <!-- <h2 class="topic-heading"></h2> -->
@@ -160,81 +159,124 @@
 
                 <div class="report-container">
                     <div class="report-header">
-                        <h1 class="recent-Articles">Recent Articles</h1>
-                        <button class="view">View All</button>
+                        <h1 class="recent-Articles">Recent Tasks</h1>
+                        <button class="view">Submit</button>
                     </div>
 
                     <div class="report-body">
                         <div class="report-topic-heading">
-                            <h3 class="t-op">Article</h3>
-                            <h3 class="t-op">Views</h3>
-                            <h3 class="t-op">Comments</h3>
-                            <h3 class="t-op">Status</h3>
+                            <h3 class="t-op"><b> Sl.No </b></h3>
+                            <h3 class="t-op"><b>Tasks </b></h3>
+                            <h3 class="t-op"><b>Deadline </b></h3>
+                            <h3 class="t-op"><b>Comments </b></h3>
+                            <h3 class="t-op"><b>Status </b></h3>
                         </div>
 
                         <div class="items">
                             <div class="item1">
-                                <h3 class="t-op-nextlvl">Article 73</h3>
-                                <h3 class="t-op-nextlvl">2.9k</h3>
-                                <h3 class="t-op-nextlvl">210</h3>
-                                <h3 class="t-op-nextlvl label-tag">Published</h3>
+                                <h3 class="t-op-nextlvl">1</h3>
+                                <h3 class="t-op-nextlvl">Code compilation</h3>
+                                <h3 class="t-op-nextlvl">19-06-2023</h3>
+                                <h3 class="t-op-nextlvl">updation required</h3>
+                                <div class="input-box">
+                                    <select class="input-field" id="role">
+                                      <option value="" selected disabled>Select</option>
+                                      <option value="user">Completed</option>
+                                      <option value="user">Inprogress</option>
+                                      <option value="user">Incomplete</option>
+                                    </select>
+                                </div>
+                                
                             </div>
 
                             <div class="item1">
-                                <h3 class="t-op-nextlvl">Article 72</h3>
-                                <h3 class="t-op-nextlvl">1.5k</h3>
-                                <h3 class="t-op-nextlvl">360</h3>
-                                <h3 class="t-op-nextlvl label-tag">Published</h3>
+                                <h3 class="t-op-nextlvl">2</h3>
+                                <h3 class="t-op-nextlvl">Code compilation</h3>
+                                <h3 class="t-op-nextlvl">28-06-2023</h3>
+                                <h3 class="t-op-nextlvl">updation required</h3>
+                                <div class="input-box">
+                                    <select class="input-field" id="role">
+                                      <option value="" selected disabled>Select</option>
+                                      <option value="user">Completed</option>
+                                      <option value="user">Inprogress</option>
+                                      <option value="user">Incomplete</option>
+                                    </select>
+                                </div>
                             </div>
 
                             <div class="item1">
-                                <h3 class="t-op-nextlvl">Article 71</h3>
-                                <h3 class="t-op-nextlvl">1.1k</h3>
-                                <h3 class="t-op-nextlvl">150</h3>
-                                <h3 class="t-op-nextlvl label-tag">Published</h3>
+                                <h3 class="t-op-nextlvl">3</h3>
+                                <h3 class="t-op-nextlvl">Task 3</h3>
+                                <h3 class="t-op-nextlvl">22-06-2023</h3>
+                                <h3 class="t-op-nextlvl">updation required</h3>
+                                <div class="input-box">
+                                    <select class="input-field" id="role">
+                                      <option value="" selected disabled>Select</option>
+                                      <option value="user">Completed</option>
+                                      <option value="user">Inprogress</option>
+                                      <option value="user">Incomplete</option>
+                                    </select>
+                                </div>
                             </div>
 
                             <div class="item1">
-                                <h3 class="t-op-nextlvl">Article 70</h3>
-                                <h3 class="t-op-nextlvl">1.2k</h3>
-                                <h3 class="t-op-nextlvl">420</h3>
-                                <h3 class="t-op-nextlvl label-tag">Published</h3>
+                                <h3 class="t-op-nextlvl">4</h3>
+                                <h3 class="t-op-nextlvl">Task 4</h3>
+                                <h3 class="t-op-nextlvl">21-06-2023</h3>
+                                <h3 class="t-op-nextlvl">updation required</h3>
+                                <div class="input-box">
+                                    <select class="input-field" id="role">
+                                      <option value="" selected disabled>Select</option>
+                                      <option value="user">Completed</option>
+                                      <option value="user">Inprogress</option>
+                                      <option value="user">Incomplete</option>
+                                    </select>
+                                </div>
                             </div>
 
                             <div class="item1">
-                                <h3 class="t-op-nextlvl">Article 69</h3>
-                                <h3 class="t-op-nextlvl">2.6k</h3>
-                                <h3 class="t-op-nextlvl">190</h3>
-                                <h3 class="t-op-nextlvl label-tag">Published</h3>
+                                <h3 class="t-op-nextlvl">5</h3>
+                                <h3 class="t-op-nextlvl">Task 5</h3>
+                                <h3 class="t-op-nextlvl">20-06-2023</h3>
+                                <h3 class="t-op-nextlvl">updation required</h3>
+                                <div class="input-box">
+                                    <select class="input-field" id="role">
+                                      <option value="" selected disabled>Select</option>
+                                      <option value="user">Completed</option>
+                                      <option value="user">Inprogress</option>
+                                      <option value="user">Incomplete</option>
+                                    </select>
+                                </div>
                             </div>
 
                             <div class="item1">
-                                <h3 class="t-op-nextlvl">Article 68</h3>
-                                <h3 class="t-op-nextlvl">1.9k</h3>
-                                <h3 class="t-op-nextlvl">390</h3>
-                                <h3 class="t-op-nextlvl label-tag">Published</h3>
+                                <h3 class="t-op-nextlvl">6</h3>
+                                <h3 class="t-op-nextlvl">Task 6</h3>
+                                <h3 class="t-op-nextlvl">22-06-2023</h3>
+                                <h3 class="t-op-nextlvl">updation required</h3>
+                                <div class="input-box">
+                                    <select class="input-field" id="role">
+                                      <option value="" selected disabled>Select</option>
+                                      <option value="user">Completed</option>
+                                      <option value="user">Inprogress</option>
+                                      <option value="user">Incomplete</option>
+                                    </select>
+                                </div>
                             </div>
 
-                            <div class="item1">
-                                <h3 class="t-op-nextlvl">Article 67</h3>
+                            <!-- <div class="item1">
+                                <h3 class="t-op-nextlvl">Task 7</h3>
                                 <h3 class="t-op-nextlvl">1.2k</h3>
                                 <h3 class="t-op-nextlvl">580</h3>
-                                <h3 class="t-op-nextlvl label-tag">Published</h3>
+                                <h3 class="t-op-nextlvl label-tag">Completed</h3>
                             </div>
 
                             <div class="item1">
-                                <h3 class="t-op-nextlvl">Article 66</h3>
+                                <h3 class="t-op-nextlvl">Task 8</h3>
                                 <h3 class="t-op-nextlvl">3.6k</h3>
                                 <h3 class="t-op-nextlvl">160</h3>
-                                <h3 class="t-op-nextlvl label-tag">Published</h3>
-                            </div>
-
-                            <div class="item1">
-                                <h3 class="t-op-nextlvl">Article 65</h3>
-                                <h3 class="t-op-nextlvl">1.3k</h3>
-                                <h3 class="t-op-nextlvl">220</h3>
-                                <h3 class="t-op-nextlvl label-tag">Published</h3>
-                            </div>
+                                <h3 class="t-op-nextlvl label-tag">Completed</h3>
+                            </div> -->
 
                         </div>
                     </div>

@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './signup/signup.component';
+import { UserdashboardComponent } from './userdashboard/userdashboard.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -11,7 +12,7 @@ const routes: Routes = [
   {path:"",component:LoginComponent},
   { path: 'about', component: AboutComponent },
   {path:'contact',component:ContactComponent},
-  
+  {path:'userdashboard',component:UserdashboardComponent}
   // Add other routes if needed
 ];
 

@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { UserdashboardComponent } from './userdashboard/userdashboard.component';
+import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { UserdashboardComponent } from './userdashboard/userdashboard.component'
     AboutComponent,
     ContactComponent,
     FooterComponent,
-    UserdashboardComponent
+    UserdashboardComponent,
+    AdmindashboardComponent
   ],
   imports: [
     BrowserModule,
